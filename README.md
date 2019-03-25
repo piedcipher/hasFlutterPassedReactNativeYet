@@ -8,9 +8,17 @@
 - [Dart](https://webdev.dartlang.org/tools/sdk#install)
 - [Web Storm](https://www.jetbrains.com/webstorm/)
 
-## Building
+## Development
+```
+$ git clone https://github.com/piedcipher/hasFlutterPassedReactNativeYet.git
+$ cd hasFlutterPassedReactNativeYet
+$ pub get && webdev run
+```
+
+## Building (JavaScript)
 ```
 $ pub global run webdev build --output=web:build
+$ cp -t hasFlutterPassedReactNativeYet/ web/index.html web/style.css web/main.dart.js
 ```
 
 ## Todo
