@@ -18,7 +18,7 @@ void main() async {
 
   querySelector('#hasIt').text = hasIt ? 'YES' : 'Not Yet';
   querySelector('#diff').text = !hasIt
-      ? '${difference.toString()} stars to go'
+      ? 'Only ${difference.toString()} stars away!'
       : 'Ahead by ${difference.toString()} stars!';
   querySelector('#flutter_stargazers_count').innerHtml =
       '${flutterStargazersCount.toString()} &starf;';

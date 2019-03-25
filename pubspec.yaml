@@ -1,8 +1,8 @@
 name: hasFlutterPassedReactnativeYet
-description: An absolute bare-bones web app.
-# version: 1.0.0
-#homepage: https://www.example.com
-#author: tirth <email@example.com>
+description: A Dart Web App to compare GitHub stars of Flutter and React Native.
+version: 0.2.1
+homepage: https://piedcipher.github.io/hasFlutterPassedReactNativeYet/
+author: piedcipher
 
 environment:
   sdk: '>=2.1.0 <3.0.0'
